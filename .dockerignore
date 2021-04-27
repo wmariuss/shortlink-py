@@ -1,0 +1,6 @@
+.git
+.vscode
+Dockerfile
+.dockerignore
+.env
+env.template

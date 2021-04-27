@@ -1,0 +1,21 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<div class="container">
+    <hr>
+    {{ wtf.quick_form(form) }}
+    </hr>
+    <br>
+    <table>
+        {% for data in all_data %}
+        <tr>
+            {{ data }}
+            <br>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

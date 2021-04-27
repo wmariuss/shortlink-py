@@ -1,0 +1,15 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<div class="container">
+    <hr>
+    {% if short_url %}
+    <h3> Shortened URL result: </h3>
+    <p> {{ short_url }} </p>
+    {% endif %}
+    <hr>
+</div>
+{% endblock %}

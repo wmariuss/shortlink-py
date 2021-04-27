@@ -1,0 +1,14 @@
+Project:
+    ✔ Create short URL based on original/long URL @done(21-04-25 10:57)
+    ✔ Create a form for the URL @done(21-04-25 12:07)
+    ✔ Generate a short local URL (ex. /abc123) and store it in a database (persistent data) with a long URL too @done(21-04-25 12:07)
+    ✔ Redirect visitors to the long URL when the short URL is accessed @done(21-04-25 12:07)
+    ▪ Track the number of time for a short URL visited
+    ▪ Add statistics page for any short URL (ex. /abc123/stats) like show long and short URL, number of time of URL visited
+    ✔ Add a persistent storage @done(21-04-25 10:57)
+    ✔ Do not allow invalid URL to be entered in the form @done(21-04-25 12:08)
+    ✔ Do not create short URL is already exists @done(21-04-25 12:08)
+    Nice to have:
+        ✔ Delete short link @done(21-04-25 13:47)
+        ✔ Run with the docker/docker-compose @done(21-04-26 10:09)
+        ✔ Add healtcheck for the application on container level @done(21-04-26 10:09)
